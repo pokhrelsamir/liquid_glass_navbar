@@ -33,10 +33,6 @@ Liquid_Glass_Navbar/
 ├── style.css           # Styling and animations
 ├── script.js           # Liquid glass engine
 │
-├── screenshots/
-│   ├── light.png
-│   └── dark.png
-│
 ├── LICENSE
 └── README.md
 ```
