@@ -213,18 +213,6 @@ with adaptive layouts and responsive navigation.
 
 ---
 
-# 📷 Screenshots
-
-```
-screenshots/
-├── home.png
-├── dark-mode.png
-├── settings.png
-└── mobile.png
-```
-
----
-
 # 🤝 Contributing
 
 Contributions are welcome!
