@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Liquid Glass Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light-theme">
+  <div class="bg-orb orb-a"></div>
+  <div class="bg-orb orb-b"></div>
+  <div class="bg-orb orb-c"></div>
+
+  <header class="ios26-nav lg-demo-target" data-radius="999">
+    <div class="ios26-nav-inner">
+      <div class="nav-glow" id="navGlow"></div>
+      <div class="tab-indicator" id="tabIndicator"></div>
+      <button class="ios-item active" type="button">
+        <svg class="ios-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3.5 4 9v10.2c0 .7.6 1.3 1.3 1.3h5.4v-6.4h2.6v6.4h5.4c.7 0 1.3-.6 1.3-1.3V9l-8-5.5Z"></path>
+        </svg>
+        <span>Home</span>
+      </button>
+      <button class="ios-item" type="button">
+        <svg class="ios-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 5h14v14H5V5Zm2.3 2.3v9.4h9.4V7.3H7.3Zm1.4 1.4h6.6v1.8H8.7V8.7Zm0 3.2h6.6v1.8H8.7v-1.8Z"></path>
+        </svg>
+        <span>Apps</span>
+      </button>
+      <button class="ios-item" type="button">
+        <svg class="ios-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 2.8 3 7.2v9.6l9 4.4 9-4.4V7.2l-9-4.4Zm0 2.3 6.6 3.2-6.6 3.2-6.6-3.2L12 5.1Zm-6.8 5.1 5.5 2.7v5.8l-5.5-2.7v-5.8Zm8.1 8.5v-5.8l5.5-2.7v5.8l-5.5 2.7Z"></path>
+        </svg>
+        <span>Design</span>
+      </button>
+      <button class="ios-item" type="button">
+        <svg class="ios-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 3.2a8.8 8.8 0 1 0 0 17.6 8.8 8.8 0 0 0 0-17.6Zm0 2.4a6.4 6.4 0 1 1 0 12.8 6.4 6.4 0 0 1 0-12.8Zm-.1 2.8c-1.8 0-3.1 1.1-3.3 2.8h2.4c.1-.5.5-.8 1-.8.7 0 1.1.4 1.1 1 0 .4-.2.8-.7 1.1-.9.6-1.7 1.2-1.7 2.6v.2h2.3c0-.7.2-1 .9-1.5.8-.5 1.6-1.3 1.6-2.6 0-1.8-1.5-2.8-3.6-2.8Zm-.1 8.8a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6Z"></path>
+        </svg>
+        <span>Support</span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-wrap">
+    <section class="hero neumorph-panel">
+      <p class="eyebrow">Liquid Glass Illustration</p>
+      <h1>This is the Demo Heading</h1>
+      <p class="lead">
+        This showcase demonstrates a restrained visual language designed to amplify your custom liquid glass layer.
+      </p>
+    </section>
+
+    <section class="content-grid">
+      <article class="neumorph-panel card-text">
+        <h2>Atmosphere</h2>
+        <p>
+          The layout uses low-contrast backgrounds, generous spacing and subtle elevation. It keeps visual noise low so
+          refractive overlays remain readable and premium.
+        </p>
+      </article>
+
+      <article class="neumorph-panel card-photo">
+        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1400&auto=format&fit=crop"
+          alt="Abstract technology environment">
+      </article>
+
+      <article class="neumorph-panel card-photo">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1400&auto=format&fit=crop"
+          alt="Laptop and development workspace">
+      </article>
+
+      <article class="neumorph-panel card-text">
+        <h2>Readable Layers</h2>
+        <p>
+          Typography and color stops were tuned to stay legible under blur and refraction. The same structure adapts to
+          both light and dark mood without redesigning components.
+        </p>
+      </article>
+    </section>
+
+    <section class="feature-layout">
+      <article class="neumorph-panel prose-panel">
+        <h2>Design Notes</h2>
+        <p>
+          Use this page as a controlled environment: the cards, photo blocks and long text strips are intentionally
+          mixed to expose edge cases in displacement and specular rendering.
+        </p>
+        <p>
+          Fine grain controls stay available in the right panel. Adjust blur and thickness in real time and compare
+          behavior on soft gradients versus high-frequency image textures.
+        </p>
+        <p>
+          The top switcher remains interactive and is purposefully compact. This lets you test micro-surfaces while the
+          larger draggable shapes validate behavior on broader radii.
+        </p>
+      </article>
+
+      <article class="neumorph-panel theme-card-wrap">
+        <div class="neumorphic-card lg-demo-target" data-radius="48">
+          <div class="card-content">
+            <h3 class="panel-title">Settings Panel</h3>
+
+            <div class="toggle-container">
+              <button class="toggle-button active" id="light-btn" type="button" aria-label="Enable light theme">
+                <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="5"></circle>
+                  <line x1="12" y1="1" x2="12" y2="3"></line>
+                  <line x1="12" y1="21" x2="12" y2="23"></line>
+                  <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                  <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                  <line x1="1" y1="12" x2="3" y2="12"></line>
+                  <line x1="21" y1="12" x2="23" y2="12"></line>
+                  <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                  <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+              </button>
+              <button class="toggle-button" id="dark-btn" type="button" aria-label="Enable dark theme">
+                <svg class="toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div class="wifi-row" id="wifi-row">
+              <svg class="wifi-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12.55a11 11 0 0 1 14.08 0"></path>
+                <path d="M1.42 9a16 16 0 0 1 21.16 0"></path>
+                <path d="M8.53 16.11a6 6 0 0 1 6.95 0"></path>
+                <line x1="12" y1="20" x2="12.01" y2="20"></line>
+              </svg>
+              <span class="wifi-label">Wi-Fi Network</span>
+              <button class="switch-track active" id="wifi-switch" type="button" aria-label="Toggle Wi-Fi">
+                <span class="switch-thumb"></span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="reading-grid">
+      <article class="neumorph-panel long-copy">
+        <h2>Long-Form Surface Test</h2>
+        <p>
+          Minimal surfaces are most useful when they stay calm under motion. Scroll, drag and toggle theme while
+          observing how your glass effect preserves edge contrast and text readability.
+        </p>
+        <p>
+          Curabitur blandit tempus porttitor. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+          Maecenas faucibus mollis interdum. Donec ullamcorper nulla non metus auctor fringilla.
+        </p>
+        <p>
+          Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Praesent commodo
+          cursus magna, vel scelerisque nisl consectetur et.
+        </p>
+      </article>
+      <article class="neumorph-panel card-photo tall-photo">
+        <img src="https://images.unsplash.com/photo-1484417894907-623942c8ee29?q=80&w=1400&auto=format&fit=crop"
+          alt="Minimal architecture interior">
+      </article>
+    </section>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </main>
+
+  <div class="glass-circle lg-demo-target draggable" id="glassCircle" data-radius="999"></div>
+  <div class="glass-square lg-demo-target draggable" id="glassSquare" data-radius="28"></div>
+
+  <aside class="demo-panel">
+    <div class="demo-head">
+      <strong>Liquid Glass</strong>
+      <span id="statusText"></span>
+    </div>
+    <div class="demo-body">
+      <label>glassThickness <input id="cfg-glassThickness" type="number" step="1"></label>
+      <label>bezelWidth <input id="cfg-bezelWidth" type="number" step="1"></label>
+      <label>ior <input id="cfg-ior" type="number" step="0.01"></label>
+      <label>scaleRatio <input id="cfg-scaleRatio" type="number" step="0.01"></label>
+      <label>blur <input id="cfg-blur" type="number" step="0.1"></label>
+      <label>specularOpacity <input id="cfg-specularOpacity" type="number" step="0.01"></label>
+      <label>specularSat <input id="cfg-specularSat" type="number" step="0.01"></label>
+      <label>tintColor (r,g,b) <input id="cfg-tintColor" type="text"></label>
+      <label>tintOpacity <input id="cfg-tintOpacity" type="number" step="0.01"></label>
+      <label>innerShadow <input id="cfg-innerShadow" type="text"></label>
+      <label>innerShadowBlur <input id="cfg-innerShadowBlur" type="number" step="1"></label>
+      <label>innerShadowSpread <input id="cfg-innerShadowSpread" type="number" step="1"></label>
+      <hr>
+      <label><strong>Switcher Glass</strong></label>
+      <label>glassThickness <input id="sw-glassThickness" type="number" step="1"></label>
+      <label>bezelWidth <input id="sw-bezelWidth" type="number" step="1"></label>
+      <label>ior <input id="sw-ior" type="number" step="0.01"></label>
+      <label>scaleRatio <input id="sw-scaleRatio" type="number" step="0.01"></label>
+      <label>blur <input id="sw-blur" type="number" step="0.1"></label>
+      <label>specularOpacity <input id="sw-specularOpacity" type="number" step="0.01"></label>
+      <label>specularSat <input id="sw-specularSat" type="number" step="0.01"></label>
+      <label>tintColor (r,g,b) <input id="sw-tintColor" type="text"></label>
+      <label>tintOpacity <input id="sw-tintOpacity" type="number" step="0.01"></label>
+      <label>innerShadow <input id="sw-innerShadow" type="text"></label>
+      <label>innerShadowBlur <input id="sw-innerShadowBlur" type="number" step="1"></label>
+      <label>innerShadowSpread <input id="sw-innerShadowSpread" type="number" step="1"></label>
+      <div class="btns">
+        <button id="saveBtn" type="button">Save</button>
+        <button id="resetBtn" type="button">Reset</button>
+        <button id="rebuildBtn" type="button">Rebuild</button>
+      </div>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
